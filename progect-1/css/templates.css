@@ -1,0 +1,150 @@
+@media (max-width: 900px) {
+
+    .burger-menu {
+        background: #000;
+    }
+
+    .header__phone {
+        z-index: -1;
+    }
+
+
+    .button {
+        font-size: 18px;
+        width: 274px;
+        height: 61px;
+    }
+
+    .header__hero {
+        padding: 458px 0 315px;
+    }
+
+    .header__logo {
+        top: 41px;
+    }
+
+    .body--opened-menu .header__logo {
+        top: 31px;
+    }
+
+    .burger-menu {
+        padding-bottom: 180px;
+    }
+
+    .hero__title {
+        font-size: 48px;
+    }
+
+    .modal__window {
+        padding: 110px 164px 135px;
+    }
+
+    .modal__input {
+        padding: 18px 26px 18px 37px;
+    }
+
+    .modal__input::placeholder {
+        font-size: 18px;
+    }
+
+    .modal__button {
+        font-size: 24px;
+        height: 81px;
+    }
+}
+
+@media (max-width: 650px) {
+    .modal__window {
+        padding: 72px 60px 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header__top {
+        background: none;
+    }
+
+    .header__inner {
+        padding: 36px 0 0;
+    }
+
+    .header__logo {
+        top: 150px;
+    }
+
+    .nav__list {
+        gap: 40px;
+        font-weight: 300;
+        font-size: 24px;
+        margin-bottom: 71px;
+    }
+
+    .nav__link {
+        padding: 0;
+    }
+    
+    .nav__item--active {
+        border: none;
+        margin-bottom: 0;
+    }
+
+    .header__socials-nav {
+        padding: 0px 112px;
+        gap: 21px 16px;
+        flex-wrap: wrap;
+    }
+
+    .header__item-nav {
+        width: 26px;
+        height: 26px;
+        align-items: center;
+    }
+
+    .body--opened-menu .header__logo {
+        top: 68px;
+        width: 139px;
+    }
+
+    .burger-menu {
+        padding-bottom: 57px;
+    }
+
+    .header__hero {
+        padding: 227px 35px 124px;
+    }
+
+    .hero__title {
+        font-size: 36px;
+        margin-bottom: 125px;
+    }
+
+    .hero__buttons {
+        flex-direction: column;
+    }
+
+    .button {
+        max-width: none;
+        width: 100%;
+    }
+
+    .modal {
+        padding: 0;
+        align-items: end;
+    }
+
+    .modal__cancel {
+        top: 20px;
+        right: 22px;
+    }
+
+    .modal__window {
+        height: 510px;
+        padding: 72px 18px 100px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header__hero {
+        padding: 227px 0px 124px;
+    }
+}
